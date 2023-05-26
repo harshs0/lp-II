@@ -48,6 +48,8 @@ def diagnose(symptoms):
 
 
 # Test the expert system
-symptoms = ['fever', 'rash', 'headache']
+print("Enter the symptons separated by comma")
+symptoms=input()
+# symptoms = ['fever', 'rash', 'headache']
 result = diagnose(symptoms)
 print(result)  # Output: You may have the flu.
